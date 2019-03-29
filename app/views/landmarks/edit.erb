@@ -2,5 +2,10 @@
 
 <!-- add content here -->
 
+<form action="/landmarks/<%= @landmark.id %>" method="post">
+  <input type="text" name="_method" value="patch">
+
+</form>
+
 <a class="button" href="/figures">Landmarks</a>
 <a class="button" href="/">Home</a>
